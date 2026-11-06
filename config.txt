@@ -1,0 +1,80 @@
+
+{
+  "host": "jonarchy.com",
+  "port": 25565,
+  "username": "1161_KitBot",
+  "version": "1.21.11",
+  "auth": "offline",
+  "owner": "JonsenCena",
+  "prefix": "*",
+  "authPassword": "wtvurpassis",
+  "authRegisterDelayMs": 2000,
+  "authLoginDelayMs": 3000,
+
+  "kitsFile": "kits.txt",
+  "rolesFile": "roles.txt",
+  "adsFile": "ads.txt",
+  "thanksFile": "thanks.txt",
+  "feedbackFile": "feedback.txt",
+  "reportsFile": "reports.txt",
+  "rulesText": "Be respectful. No hacking/exploiting outside intended anarchy rules. Have fum.",
+  "quotesFile": "quotes.txt",
+  "statsFile": "stats.txt",
+  "economyFile": "economy.txt",
+  "currencyName": "mp",
+
+  "dailyAmount": 500,
+  "dailyCooldownMs": 86400000,
+  "hourlyAmount": 100,
+  "hourlyCooldownMs": 3600000,
+  "workMinAmount": 50,
+  "workMaxAmount": 500,
+  "workCooldownMs": 300000,
+
+  "aiModel": "openrouter/free",
+  "aiCooldownMs": 10000,
+  "openrouterApiKey": "",
+
+  "friendUsers": [
+    "frienduserhere (for discount)"
+  ],
+  "devUsers": [
+    "GalaxyClicker"
+  ],
+  "friendDiscount": 0.15,
+  "devDiscount": 0.3,
+
+  "adsEnabled": true,
+  "adsIntervalMs": 100000,
+  "thanksEnabled": true,
+  "kitDeliveryEnabled": true,
+  "kitCooldownSeconds": 60,
+  "kitReachDistance": 1,
+  "kitwithdrawAmount": 1,
+
+  "pathfinderStuckTimeoutMs": 8000,
+  "kitTpaKillRadius": 5,
+  "kitTpaKillcheckIntervalMs": 200,
+  "kitTpaKillTimeoutMs": 30000,
+
+  "kitActionGlobalDelayMs": 20000,
+  "kitTeleportMinWaitMs": 15000,
+  "kitTeleportDetectMs": 8000,
+  "kitTeleportMaxRetries": 5,
+  "kitTeleportCooldownFallbackSec": 3,
+
+  "kitRespawnMessageWaitMs": 3000,
+  "kitRespawnFallbackWaitMs": 1000,
+  "kitRespawnTimeoutMs": 10000,
+  "kitPostRespawnTpaDelayMs": 10000,
+
+  "antiafk": true,
+  "antiAfkIntervalms": 60000,
+  "autoReconnect": true,
+  "reconnectDelayMs": 10000,
+
+  "ignoredUsers": [],
+  "ignoreOthers": false,
+  "maintenanceMode": true,
+  "chatCooldownMs": 500
+}
