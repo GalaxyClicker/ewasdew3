@@ -1,0 +1,11 @@
+# roles.txt - CenaAirlines role storage
+# Assign players with: username:RoleName
+# Built-in roles: Owner, Admin, Mod, Default
+# Add a custom role with: @role:RoleName:level:kit1,kit2
+# Custom role level is 0 (Default) to 2 (Admin); Owner cannot be created here.
+# A custom role with listed kits can only claim those kits. An empty list allows all kits.
+# Admins can still explicitly grant any kit with *config give.
+# The bot owner is always treated as Owner regardless of this file.
+# Everyone not listed here is treated as Default automatically.
+# Example: @role:VIP:0:pvp,armor_kit
+#          playername:VIP
